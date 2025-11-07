@@ -1,6 +1,6 @@
 # Drosera-Piram-trap
 
-## About the Project
+## About the Project 
 
 Drosera-Piram-trap is a Solidity trap contract for the Drosera project.  
 It monitors the balance of the PIRAM token at a specific address and triggers when the balance decreases by more than 1 token.

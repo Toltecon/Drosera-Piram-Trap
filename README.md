@@ -29,7 +29,7 @@ Drosera-Piram-trap/
 ├── drosera.toml             # Drosera configuration
 ├── README.md                # Documentation
 └── .gitignore               # Git ignore rules
-```
+``` 
 
 ---
 

@@ -32,7 +32,7 @@ contract PiramTrap is ITrap {
     function shouldRespond(bytes[] calldata data) external pure override returns (bool, bytes memory) {
         if (data.length < 2) {
             return (false, bytes("Insufficient historical data"));
-        }
+        } 
 
         Action memory current = abi.decode(data[0], (Action));
         Action memory previous = abi.decode(data[1], (Action));

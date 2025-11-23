@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import {IERC20} from "forge-std/interfaces/IERC20.sol";   
   
-interface ITrap {
+interface ITrap { 
     function collect() external view returns (bytes memory);
     function shouldRespond(bytes[] calldata data) external pure returns (bool, bytes memory);
 }

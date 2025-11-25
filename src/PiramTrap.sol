@@ -18,7 +18,7 @@ contract PiramTrap is ITrap {
     IERC20 private constant piram = IERC20(PIRAM_TOKEN_ADDRESS);
 
     struct Action {
-        uint256 watchedBalance;
+        uint256 watchedBalance; 
     }
 
     function collect() external view override returns (bytes memory) {

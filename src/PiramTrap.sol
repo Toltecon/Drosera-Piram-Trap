@@ -26,7 +26,7 @@ contract PiramTrap is ITrap {
             watchedBalance: piram.balanceOf(WATCHED_ADDRESS)
         });
 
-        return abi.encode(snapshot);
+        return abi.encode(snapshot); 
     }
 
     function shouldRespond(bytes[] calldata data) external pure override returns (bool, bytes memory) {

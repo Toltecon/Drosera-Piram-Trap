@@ -12,7 +12,7 @@ contract PiramTrap is ITrap {
     // PIRAM token address
     address public constant PIRAM_TOKEN_ADDRESS = 0x00DBD98148D0d552aC960B1DB23D2BAcbaD648F5;
   
-    // Watched address
+    // Watched address 
     address public constant WATCHED_ADDRESS = 0x4a61B89655A5903224A1b82Eec50c320DD899e1c;
 
     IERC20 private constant piram = IERC20(PIRAM_TOKEN_ADDRESS);

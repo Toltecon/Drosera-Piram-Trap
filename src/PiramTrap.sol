@@ -19,7 +19,7 @@ contract PiramTrap is ITrap {
 
     struct Action {
         uint256 watchedBalance;  
-    }
+    } 
 
     function collect() external view override returns (bytes memory) {
         Action memory snapshot = Action({

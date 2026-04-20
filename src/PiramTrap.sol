@@ -17,7 +17,7 @@ contract PiramTrap is ITrap {
 
     IERC20 private constant piram = IERC20(PIRAM_TOKEN_ADDRESS);
 
-    struct Action { 
+    struct Action {  
         uint256 watchedBalance;   
     } 
 

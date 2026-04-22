@@ -24,7 +24,7 @@ contract PiramTrap is ITrap {
     function collect() external view override returns (bytes memory) {
         Action memory snapshot = Action({
             watchedBalance: piram.balanceOf(WATCHED_ADDRESS)
-        });
+        }); 
 
         return abi.encode(snapshot); 
     }

@@ -27,7 +27,7 @@ contract PiramTrap is ITrap {
         }); 
 
         return abi.encode(snapshot); 
-    }
+    } 
 
     function shouldRespond(bytes[] calldata data) external pure override returns (bool, bytes memory) {
         if (data.length < 2) {

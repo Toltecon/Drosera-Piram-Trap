@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED                  
-       
+        
 import {IERC20} from "forge-std/interfaces/IERC20.sol";                       
            
 interface ITrap {    

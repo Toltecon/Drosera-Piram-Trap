@@ -1,4 +1,4 @@
-# Drosera-Piram-trap   x
+# Drosera-Piram-trap   
 ## About the Project
 
 Drosera-Piram-trap is a Solidity trap contract for the Drosera project.   
